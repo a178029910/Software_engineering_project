@@ -1,0 +1,6 @@
+1系统主要是实时爬虫和前后端交互为主要技术,由于电影爬取的网站反爬虫比较厉害,故直接放在了数据库上;其他都是实时爬取的,系统还有对数据进行简单处理的功能,见演示视频
+2系统的技术主要分为前端和后端;前端使用的是Layui框架搭配了Echart和JS技术,后端搭配的是Python的Flask框架,主要核心就是demo.py文件,数据库使用sql server
+3系统的功能还不够完善,速度也较慢,对多用户体验不好
+4系统的前端在System里,后端在Project里
+5如何复现,首先下载数据库文件films并连接数据库,修改Project里面的demo.py和datatest.py文件的数据库连接内容;启动demo.py文件,前端推荐使用HBuilder工具启动打开System里面的index.html文件;注意修改天气weather.py里面的配套的文件的地址,它放在前端的page的weather里面,命名为weathertrue.json
+6前后端有很多无用的文件,都是测试用的,可以无视
